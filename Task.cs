@@ -16,7 +16,7 @@ namespace FranzösischVerbenAufgabenGenerator
             string stringVerb = GetStringVerb(verb);
             string stringPerson = GetStringPerson(person);
 
-            Console.WriteLine($"Konjugiere das Verb {stringVerb} mit der Person {stringPerson}");
+            Console.WriteLine($"Konjugiere das Verb {stringVerb} mit der Person {stringPerson}.");
             string input = Console.ReadLine();
             if ( LoesungKorrekt(input, verb, person) ) 
             {
